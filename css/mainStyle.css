@@ -1,0 +1,62 @@
+body
+{
+  font-family: 'sego ui light';
+}
+.bg-gray
+{
+  background-color: #F8F8F8 !important ;
+}
+
+.bg-red
+{
+  background-color: #ef4836 !important ;
+}
+.color-red
+{
+  color: #ef4836 !important ;
+}
+.box-shadow
+{
+  box-shadow: 0 5px 13px 0px rgba(0,0,0,0.1) !important;
+}
+nav 
+{
+  border-bottom: solid 2px #ef4836 ;
+}
+
+nav ul li a{
+  font-weight: 900;
+  color: black;
+}
+nav ul li a:hover,
+#recipesSearch a:hover
+{
+  text-decoration: none;
+  color: #ef4836;
+}
+
+.header-banner
+{
+  background-image: url('../images/1.jpg');
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height: 60vh;
+}
+
+.food-item img {
+  height: 300px;
+}
+
+.media img
+{
+  width: 70px !important;
+  height: 70px !important;
+}
+recipes-search a{
+  color: black;
+  font-weight: 900;
+}
+#searchBtn{
+  float: right;
+}
